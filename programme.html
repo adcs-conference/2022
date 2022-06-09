@@ -1,0 +1,302 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0043)http://getbootstrap.com/examples/offcanvas/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- <link rel="icon" href="http://getbootstrap.com/favicon.ico"> -->
+
+    <title>ADCS2021</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/offcanvas.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+   <script src="js/jquery.min.js"></script> 
+    <script> 
+    $(function(){
+      $("#navbarContent").load("navbar.html"); 
+      $("#sidebarContent").load("sidebar.html"); 
+      $("#footerContent").load("footer.html");
+    });
+    </script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-fixed-top navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- <a class="navbar-brand" href="#">#ADCS2019</a> -->
+        </div>
+        <div id="navbarContent"></div>
+      </div><!-- /.container -->
+    </nav><!-- /.navbar -->
+<!-- 
+- home
+- cfp & submissions
+- program
+- keynotes
+- location and registration
+- organising committee
+- information for presenters -->
+
+    <div class="container">
+
+      <div class="row row-offcanvas row-offcanvas-right">
+
+        <div class="col-xs-12 col-sm-8">
+          <p class="pull-right visible-xs">
+            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle sidebar</button>
+          </p>
+          
+
+          <div class="row">
+              <div class="col-xs-12 col-sm-12">
+                  <h2>ADCS 2021 Programme</h2>
+
+         <p><strong>Note that all times are in <a href="https://www.timeanddate.com/worldclock/converter.html?iso=20211209T010000&p1=152&p2=22&p3=136&p4=33&p5=179&p6=137" target="_blank">Australian Eastern Daylight Time (AEDT), UTC+11.</a></strong></p>
+         <p>You can import the programme to your calendar using <a href="data/ADCS2021_20211130.ics">this .ics file</a>.</p>
+
+         <h2>Updates</h2>
+         <p>
+         We have moved the seminar which was originally on Thursday January 27th back to Tuesday January the 18th to avoid a clash with the SIGIR deadline.
+         </p>
+        
+         <h2>Overview</h2>
+         <p>
+         ADCS will run as 7 seminars starting on December 9, 2021, through to
+         February 24, 2022. The following image shows the program overview.
+         </p>
+         <img src="img/glance.png" width="700">
+
+         <h2>Full Program</h2>
+          <h3>Thursday 9 December, 2021</h3>
+
+                  <table class="table table-condensed table-hover">
+                      <tbody>
+                         <tr class="success">
+                              <td>12pm-12.30pm (GMT+11)</td>
+                              <td><strong>Conference Opening</strong></td>
+                          </tr>
+                          <tr class="warning">
+                              <td>12.30pm-1.30pm (GMT+11)</td>
+                              <td>
+                                <strong>Keynote</strong>:<a href="keynotes.html" target="_blank"><i> What users tell us: User Understanding and Modeling for Personalized Recommendation</i> - Associate Professor Min Zhang, Tsinghua University</a><br/>
+                              </td>
+                          </tr>
+                      </tbody>
+                  </table>
+
+                  <h3>Thursday 13 January, 2022</h3>
+
+                  <table class="table table-condensed table-hover">
+                      <tbody>
+                         <tr class="success">
+                              <td>12.30pm-1.30pm (GMT+11)</td>
+                              <td><strong>Seminar Session 1</strong></td>
+                          </tr>
+                         <tr class="warning">
+                            <td></td>
+                              <td>
+                                <a href="https://dl.acm.org/doi/10.1145/3503516.3503531"><i>Hierarchical Clustering of Corals using Image Clustering</i> - Rudra Sawant, Gianluca Demartini, and Tom Bridge</a><br/>
+                              </td>
+                          </tr>
+                          <tr class="info">
+                            <td></td>
+                              <td>
+                                <a href="https://dl.acm.org/doi/10.1145/3503516.3503528"><i>Cost-Effective Updating of Distributed Reordered Indexes</i> - Joel Mackenzie and Alistair Moffat</a><br/>
+                              </td>
+                          </tr>
+                      </tbody>
+                  </table>
+
+                  <h3>Tuesday 18 January, 2022</h3>
+
+                  <table class="table table-condensed table-hover">
+                      <tbody>
+                         <tr class="success">
+                              <td>12.30pm-1.30pm (GMT+11)</td>
+                              <td><strong>Seminar Session 2</strong></td>
+                          </tr>
+                          <tr class="warning">
+                            <td></td>
+                              <td>
+                                <a href="https://dl.acm.org/doi/10.1145/3503516.3503527"><i>Document Clustering vs Topic Models: A Case Study</i> - Meng Yuan, Pauline Lin, and Justin Zobel</a><br/>
+                              </td>
+                          </tr>
+                          <tr class="info">
+                            <td></td>
+                              <td>
+                                <a href="https://dl.acm.org/doi/10.1145/3503516.3503530"><i>MeSH Term Suggestion for Systematic Review Literature Search</i> - Shuai Wang, Hang Li, Harrisen Scells, Daniel Locke, and Guido Zuccon</a><br/>
+                              </td>
+                          </tr>
+
+
+                      </tbody>
+                  </table>
+
+
+
+                  <h3>Thursday 20 January, 2022</h3>
+
+                  <table class="table table-condensed table-hover">
+                      <tbody>
+                         <tr class="success">
+                              <td>12.30pm-1.30pm (GMT+11)</td>
+                              <td><strong>Seminar Session 3</strong></td>
+                          </tr>
+                          <tr class="warning">
+                            <td></td>
+                              <td>
+                                <a href="https://dl.acm.org/doi/10.1145/3503516.3503532"><i>Annotation of Struck-out Text in Handwritten Documents</i> - Hiqmat Nisa, Vic Ciesielski, James Thom, and Ruwan Tennakoon</a><br/>
+                              </td>
+                          </tr>
+                         <tr class="info">
+                            <td></td>
+                              <td>
+                                <a href="https://dl.acm.org/doi/10.1145/3503516.3503529"><i>Cohort-based Clinical Trial Retrieval</i> - Bevan Koopman and Guido Zuccon</a><br/>
+                              </td>
+                          </tr> 
+                      </tbody>
+                  </table>
+
+                  <h3>Thursday 3 February, 2022</h3>
+
+                  <table class="table table-condensed table-hover">
+                      <tbody>
+                         <tr class="success">
+                              <td>10am-11am (GMT+11)</td>
+                              <td><strong>Seminar Session 4</strong></td>
+                          </tr>
+                          <tr class="warning">
+                            <td></td>
+                              <td>
+                                <a href="https://dl.acm.org/doi/10.1145/3503516.3503534"><i>Passage Based Answer-Set Graph Approach for Query Performance Prediction</i> - Ghulam Sarwar and Colm O'Riordan</a><br/>
+                              </td>
+                          </tr>
+                          <tr class="info">
+                            <td></td>
+                              <td>
+                                <a href="https://dl.acm.org/doi/10.1145/3503516.3503526"><i>Crowdsourcing Backstories for Complex Task-Based Search</i> - Manuel Steiner, Damiano Spina, Falk Scholer, and Lawrence Cavedon</a><br/>
+                              </td>
+                          </tr>
+
+
+                      </tbody>
+                  </table>
+
+                  <h3>Friday 11 February, 2022</h3>
+
+                  <table class="table table-condensed table-hover">
+                      <tbody>
+                         <tr class="success">
+                              <td>4pm-5.30pm (GMT+11)</td>
+                              <td><strong>Seminar Session 5</strong></td>
+                          </tr>
+                          <tr class="warning">
+                            <td></td>
+                              <td>
+                                <a href="https://dl.acm.org/doi/10.1145/3503516.3503533"><i>An Analysis of the Australian Political Discourse in Sponsored Social Media Content</i> - Lei Han, Rudra Sawant, Shaoyang Fan, Glenn Kefford, and Gianluca Demartini</a><br/>
+                              </td>
+                          </tr>
+                          <tr class="info">
+                            <td></td>
+                              <td>
+                                <i><strong>Business Meeting</strong></i><br/>
+                              </td>
+                          </tr>
+                          <tr class="success">
+                            <td></td>
+                              <td>
+                                <i><strong>Social Event</strong></i><br/>
+                              </td>
+                          </tr>
+
+                      </tbody>
+                  </table>
+
+          <h3>Thursday 24 February, 2022</h3>
+
+                  <table class="table table-condensed table-hover">
+                      <tbody>
+                         <tr class="warning">
+                              <td>12.30pm-1.30pm (GMT+11)</td>
+                              <td>
+                                <strong>Keynote</strong>:<a href="keynotes.html" target="_blank"><i> Maximising the potential of documents, NLP, and AI in an online employment marketplace: Technical and non-technical challenges</i> - Dr. Terrence Szymanski, SEEK</a><br/>
+                              </td>
+                          </tr>
+                         <tr class="success">
+                              <td></td>
+                              <td><strong>Conference Closing</strong></td>
+                          </tr>
+ 
+                      </tbody>
+                  </table>
+
+
+
+
+
+
+              </div><!--/.col-xs-6.col-lg-4-->
+            
+          </div><!--/row-->
+
+          <div class="row">
+              <div class="col-xs-12 col-sm-12 accepted">
+                  <h2>List of Accepted Papers</h2>
+                  <p>We accepted 9 out of 14 submissions, with an acceptance rate of 64%</p>
+                  <p>The proceedings are available in the <a href="https://dl.acm.org/doi/proceedings/10.1145/3503516">ACM Digital Library</a>.
+ 
+                  <ul>
+                    <li><strong>An Analysis of the Australian Political Discourse in Sponsored Social Media Content</strong><br/> Lei Han, Rudra Sawant, Shaoyang Fan, Glenn Kefford, and Gianluca Demartini</li>
+                    <li><strong>Annotation of Struck-out Text in Handwritten Documents</strong><br/> Hiqmat Nisa, Vic Ciesielski, James Thom, and Ruwan Tennakoon</li>
+                    <li><strong>Cohort-based Clinical Trial Retrieval</strong><br/> Bevan Koopman and Guido Zuccon</li>
+                    <li><strong>Cost-Effective Updating of Distributed Reordered Indexes</strong><br/> Joel Mackenzie and Alistair Moffat</li>
+                    <li><strong>Crowdsourcing Backstories for Complex Task-Based Search</strong><br/> Manuel Steiner, Damiano Spina, Falk Scholer, and Lawrence Cavedon</li>
+                    <li><strong>Document Clustering vs Topic Models: A Case Study</strong><br/> Meng Yuan, Pauline Lin, and Justin Zobel</li>
+                    <li><strong>Hierarchical Clustering of Corals using Image Clustering</strong><br/> Rudra Sawant, Gianluca Demartini, and Tom Bridge</li>
+                    <li><strong>MeSH Term Suggestion for Systematic Review Literature Search</strong><br/> Shuai Wang, Hang Li, Harrisen Scells, Daniel Locke, and Guido Zuccon</li>
+                    <li><strong>Passage Based Answer-Set Graph Approach for Query Performance Prediction</strong><br/> Ghulam Sarwar and Colm O'Riordan</li>
+                  </ul>
+              </div><!--/.col-xs-6.col-lg-4-->
+
+          </div><!--/row-->
+ 
+        </div><!--/.col-xs-12.col-sm-9-->
+
+        <div id="sidebarContent"></div>
+      </div><!--/row-->
+
+      <hr>
+
+      <div id="footerContent"></div>
+
+    </div><!--/.container-->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+    <script src="js/offcanvas.js"></script>
+  
+
+</body></html>

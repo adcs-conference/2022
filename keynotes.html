@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0043)http://getbootstrap.com/examples/offcanvas/ -->
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- <link rel="icon" href="http://getbootstrap.com/favicon.ico"> -->
+
+    <title>ADCS2021</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/offcanvas.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+    <script src="js/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $("#navbarContent").load("navbar.html");
+            $("#sidebarContent").load("sidebar.html");
+            $("#footerContent").load("footer.html");
+        });
+    </script>
+</head>
+
+<body>
+<nav class="navbar navbar-fixed-top navbar-inverse">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div id="navbarContent"></div>
+    </div><!-- /.container -->
+</nav><!-- /.navbar -->
+<!-- 
+- home
+- cfp & submissions
+- program
+- keynotes
+- location and registration
+- organising committee
+- information for presenters -->
+
+<div class="container">
+
+    <div class="row row-offcanvas row-offcanvas-right">
+
+        <div class="col-xs-12 col-sm-8">
+            <p class="pull-right visible-xs">
+                <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle sidebar</button>
+            </p>
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-12">
+                    <h2>Keynote Presentations</h2>
+
+                    <a name="placeholder"></a>
+
+
+                    <h3>Associate Professor Min Zhang, Tsinghua University</h3><br/>
+                    <img src="img/min.png" style="max-width: 25%;"/> 
+
+                    <h4>What users tell us: User Understanding and Modeling for Personalized Recommendation</h4>
+                    <h5>December 9th, 12 pm AEDT</h5>
+
+                    <p>Personalized   recommender   systems   have   been   one   of   the   major   ways   of   information
+acquisition.   Understanding   the   user’s   intent   and   behavior   plays   an   important   role   and   has
+been a trending topic in research and applications. In this talk, I will briefly introduce some
+observations   and   findings   on   our   user   understanding   research   in   recent   years,   which   are
+surprising or different from what people thought before. The topic in the talk involves user
+behavior   analyses,   dynamic   intent   modeling,   and   evaluation   in   multiple   scenarios   such   as
+news streaming, e-commerce, job hunting, and music recommendation. Related researches
+have been published on ACM TOIS, WWW, SIGIR, WSDM, etc.</p>
+
+                    <h4>About Dr. Min Zhang</h4>
+                    <p>
+                        Dr. Min Zhang is a tenured associate professor in the Department of Computer Science &
+                        Technology (DCST), Tsinghua University, and is the vice director of the AI lab, DCST. She
+                        specializes in Web search, personalized recommendation, and user modeling. Currently she serves
+                        as the Editor-in-Chief (EiC) of ACM Transaction on Information Systems (TOIS), ACM SIGIR
+                        Executive Committee member, and PC chair or Area Chairs of top conferences such as SIGIR, WSDM,
+                        theWebConf, etc. She was awarded IBM Global Faculty Award in 2020. She also owns 12 patents and
+                        cooperates with many international and domestic enterprises. More information can be found at
+                        <a href="http://www.thuir.cn/group/~mzhang">the website</a> and
+                        <a href="https://scholar.google.com/citations?&user=0HtCYQEAAAAJ">Google Scholar</a>.
+                    </p>
+
+                    <br/>
+                    <h3>Dr Terrence Szymanski Principal Data Scientist, SEEK</h3> <br/>
+                    <img src="img/terry.jpeg" style="max-width: 25%;"/>
+
+                    <h4>Maximising the potential of documents, NLP, and AI in an online employment marketplace: Technical and non-technical challenges</h4>
+                    <h5>February 24th, 12:30 pm AEDT</h5>
+
+                    <p>SEEK is a leading employment marketplace with a global presence, connecting hundreds of millions of job seekers with 
+                        job advertisements posted by millions of hirers across APAC and the Americas. Document processing is fundamental to 
+                        all areas of our business, and multiple teams at SEEK face daily challenges about how to maximise the potential of 
+                        our multinational, multilingual, multifaceted corpus of job ads, candidate resumes, and other employment documents. 
+                        Although some of these challenges are familiar technical problems like accuracy, performance, and reliability of services, 
+                        often the most difficult challenges we face are non-technical. How should large teams organise into autonomous units while avoiding 
+                        silos of data and expertise? How can we use data and build AI services in an ethical way that is true to our purpose of helping SEEK’s 
+                        users and protecting their personal data? In this talk I will discuss several of these challenges that we currently face at SEEK, 
+                        and the solutions we have found to deal with them.</p>
+
+                    <h4>About Dr Terrence Szymanski</h4>
+                    <p>
+                        Terrence is currently the lead data scientist for Candidate Quality at SEEK. His team develops
+                        AI services leveraging ML and NLP to provide rich understanding of the match between candidates
+                        and job postings on SEEK’s platforms. Terrence previously worked as a data scientist at ANZ Bank
+                        in Melbourne, as a postdoctoral researcher in text analytics at University College Dublin, and
+                        as a doctoral researcher at the University of Michigan, where he earned his PhD.
+                    </p>
+
+                </div><!--/.col-xs-6.col-lg-4-->
+
+            </div><!--/row-->
+        </div><!--/.col-xs-12.col-sm-9-->
+
+        <div id="sidebarContent"></div>
+    </div><!--/row-->
+
+    <hr>
+
+    <div id="footerContent"></div>
+
+</div><!--/.container-->
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+
+<script src="js/offcanvas.js"></script>
+
+
+</body>
+</html>
