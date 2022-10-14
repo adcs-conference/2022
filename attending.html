@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0043)http://getbootstrap.com/examples/offcanvas/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- <link rel="icon" href="http://getbootstrap.com/favicon.ico"> -->
+
+    <title>ADCS2022</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/offcanvas.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+    <script src="js/jquery.min.js"></script> 
+    <script> 
+    $(function(){
+      $("#navbarContent").load("navbar.html"); 
+      $("#sidebarContent").load("sidebar.html"); 
+      $("#footerContent").load("footer.html");
+    });
+    </script>
+
+  </head>
+
+  <body>
+    <nav class="navbar navbar-fixed-top navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbarContent"></div>
+      </div><!-- /.container -->
+    </nav><!-- /.navbar -->
+<!-- 
+- home
+- cfp & submissions
+- program
+- keynotes
+- location and registration
+- organising committee
+- information for presenters -->
+
+    <div class="container">
+
+      <div class="row row-offcanvas row-offcanvas-right">
+
+        <div class="col-xs-12 col-sm-8">
+          <p class="pull-right visible-xs">
+            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle sidebar</button>
+          </p>
+          
+          <div class="row">
+            <div class="col-xs-12 col-sm-12">
+              <h2>Attending ADCS</h2>
+
+              <p>
+              Here you can find useful information about attending ADCS 2022.
+              You may also wish to refer to the <a href="https://alta2022.alta.asn.au/attending">ALTA website</a> for further information.
+              </p>
+
+              <h3>Location</h3>
+              
+              <p>
+              ADCS 2022 will be co-located with ALTA at Flinders University in Adelaide, Australia.
+              The ALTA tutorials will be held on the 14th of December at Flinders' Victoria Square campus, which is located in the heart of Adelaide's CBD. <br/>
+              ADCS will be held at <a href="https://www.flinders.edu.au/campus/tonsley">Flinders' Tonsley campus</a>, located in Tonsley. The Tonsley campus is just 10 km from Adelaide’s CBD with a <a href="https://www.adelaidemetro.com.au/">direct rail link and bus services available.</a>
+              </p>
+               
+              <h3>Food and Drink</h3>
+              
+              <p>There are many food and drink venues of various kinds around both the City and Tonsley sites as well as in the Glenelg precint a tramride away (where the conference dinner will be held). 
+              Morning and afternoon tea will be provided on site for registrants.</a>
+
+              <h3>Accommodation</h3>
+              <p>Please see the list of venues on the <a href="https://alta2022.alta.asn.au/attending">ALTA website</a> for further information.</p>
+ 
+              <h3>Visas and Invitation Letters</h3>
+              <p>
+              Visas and entry requirements differ country-to-country. For the latest information, refer to the <a href="https://immi.homeaffairs.gov.au/entering-and-leaving-australia/">Australian Government guidelines.</a>
+              <br/>
+              Any attendee requiring an invitation letter is urged to contact the chairs at the following email address: <a href="mailto:adcs2022@easychair.org">adcs2022@easychair.org</a>.
+              </p>
+
+            </div><!--/.col-xs-6.col-lg-4-->
+            
+          </div><!--/row-->
+        </div><!--/.col-xs-12.col-sm-9-->
+
+       <div id="sidebarContent"></div>
+      </div><!--/row-->
+
+      <hr>
+
+      <div id="footerContent"></div>
+
+    </div><!--/.container-->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+    <script src="js/offcanvas.js"></script>
+  
+
+</body></html>
